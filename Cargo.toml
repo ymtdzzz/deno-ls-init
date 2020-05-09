@@ -1,6 +1,6 @@
 [package]
 name = "deno-ls-init"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["zeroclock <zeroclock@icloud.com>"]
 edition = "2018"
 description = "A cli tool to enable code complition for deno project."

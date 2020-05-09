@@ -14,6 +14,7 @@ However, since this tool only rewrites tsconfig.json, I think it's usable with a
 Emacs user:
 
 - Install node.js and Rust
+- Install [yarn](https://classic.yarnpkg.com/)
 - Install and enable [Tide](https://github.com/ananthakumaran/tide) package
 
 If you're a Doom Emacs user, just enable `lang: javascript` in setting file (`init.el`) and run `doom refresh`.

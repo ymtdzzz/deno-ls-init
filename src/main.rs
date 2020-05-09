@@ -21,10 +21,12 @@ fn main() -> Result<()> {
     let mut f = File::create("tsconfig.json")?;
     write!(f, "{}", tsconfig?);
 
-    std::process::Command::new("npm")
-        .args(&["install", "--save-dev", "typescript-deno-plugin", "typescript"])
+    let result = std::process::Command::new("yarn")
+        .args(&["add", "-D", "typescript-deno-plugin", "typescript"])
         .output()
-        .expect("npm install failed.");
+        .expect("yarn add failed.");
+
+    println!("{}", &result);
 
     Ok(())
 }

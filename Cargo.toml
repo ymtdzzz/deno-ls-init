@@ -1,0 +1,16 @@
+[package]
+name = "deno-ls-init"
+version = "0.1.0"
+authors = ["zeroclock <zeroclock@icloud.com>"]
+edition = "2018"
+
+[[bin]]
+path = "src/main.rs"
+name = "denolsinit"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+directories = "2.0.2"
+pathdiff = "0.2.0"
+anyhow = "1.0.28"
+serde_json = "1.0.52"

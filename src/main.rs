@@ -26,7 +26,7 @@ fn main() -> Result<()> {
         .output()
         .expect("yarn add failed.");
 
-    println!("{}", &result);
+    println!("{:?}", &result);
 
     Ok(())
 }

@@ -65,7 +65,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "denoinit"
+name = "deno-ls-init"
 version = "0.1.0"
 dependencies = [
  "anyhow",
